@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+  {% block body_block %}
+    <h1>Enter new wenpage information:</h1>
+    <form  method="post">
+      {{ form.as_p }}
+      {% csrf_token %}
+      <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+
+  {% endblock %}
