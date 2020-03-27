@@ -1,0 +1,10 @@
+01. create a repo in github without init
+02. after repo creation, Quick setup procedure will be displayed
+03. create a folder in your local drive
+04. open command prompt and cd to the new created folder
+05. git init
+06. git add .
+07. git commit . -m "first commit"
+08. git remote add origin ...
+09. push -u origin master
+
